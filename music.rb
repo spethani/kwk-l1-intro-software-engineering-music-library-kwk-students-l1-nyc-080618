@@ -30,6 +30,7 @@ end
 
 def add_song_and_artist (hash, artist, song)
   hash[artist] = song
+  return hash
 end
 
 
